@@ -312,6 +312,11 @@ a:hover {
     min-width: 100px;
 }
 
+.navbar-brand img:focus{
+    border: 2px solid red;
+    border-radius: 15px;
+}
+
 .nav-center .navbar-brand img {
     margin: 0;
 }
@@ -333,9 +338,13 @@ a:hover {
     text-align: inherit;
 }
 
-.nav > li a:hover,
-.nav > li a:focus {
+.nav > li a:hover {
     background: transparent;
+}
+
+.nav > li a:focus{
+    border: 2px solid red;
+    border-radius: 15px;
 }
 
 .navbar-toggle {
@@ -347,6 +356,10 @@ a:hover {
     background: transparent!important;
 }
 
+.navbar-toggle:focus{
+    border: 2px solid red;
+    border-radius: 15px;
+}
 .navbar-toggle .icon-bar {
     background-color: rgba(0, 0, 0, .5);
     width: 26px;
@@ -537,6 +550,11 @@ a[data-lightbox] {
     text-align: center;
 }
 
+a[data-lightbox]:focus{
+    border: 2px solid red;
+    border-radius: 15px;
+}
+
 a[data-lightbox]:hover::before {
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
@@ -652,7 +670,12 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #161212!important;
+}
+
+li a:focus{
+    border: 2px solid red;
+    border-radius: 15px;
 }
 
 .container {
@@ -678,7 +701,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -737,7 +760,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #1a0a0a!important;
 }
 
 .portfolio-thumb {
@@ -776,23 +799,32 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #1a0a0a!important;
+}
+
+.btn-atomic-tangerine:focus{
+    border: 2px solid red;
+    border-radius: 15px;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #1a0a0a!important;
 }
 
 .ltc-white {
     color: #FFFFFF!important;
 }
 
+.ltc-white:focus{
+    border: 2px solid red;
+    border-radius: 15px;
+}
 .ltc-white:hover {
     color: #cccccc!important;
 }
