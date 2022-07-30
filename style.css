@@ -522,6 +522,7 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    margin: 15px;
 }
 
 .scrollToTop {
@@ -957,7 +958,7 @@ h4 {
         -ms-transform: none;
     }
     .nav > li {
-        margin-top: 0;
+        margin-top: 30px;
         border-bottom: 1px solid rgba(0, 0, 0, .1);
         background: rgba(0, 0, 0, .05);
         text-align: left;
