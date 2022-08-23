@@ -709,6 +709,10 @@ p {
     font-size: 12px;
 }
 
+.text-center{
+    text-align: center;
+}
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -730,7 +734,10 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .fa-facebook::before{
     content: "\f09a";
@@ -820,7 +827,7 @@ h4 {
 }
 
 .tc-white {
-    color: #FFFFFF!important;
+    color: #f5f0f0!important;
 }
 
 .btn-atomic-tangerine {
@@ -876,7 +883,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
