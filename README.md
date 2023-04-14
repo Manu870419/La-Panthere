@@ -1,4 +1,4 @@
-# La-Panthere
+# la panthère
 ohmyfood
 
 Ceci est le quatrième projet d'Openclassrooms
